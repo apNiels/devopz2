@@ -14,7 +14,7 @@ spec:
       containers:
       - name: auth
         imagePullPolicy: IfNotPresent
-        image: index.docker.io/nickhell/chat-base-app:auth  
+        image: index.docker.io/s117923/devopz:authAPI
         ports:
           - containerPort: 3000
             name: http-web-svc
